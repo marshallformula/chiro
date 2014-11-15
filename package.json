@@ -1,0 +1,16 @@
+{
+  "name": "chiro",
+  "private":"true",
+  "version": "0.0.0",
+  "description": "'Gibbons Chiro static website'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:fallboy/chiro.git"
+  },
+  "author": "nate.gibbons@gmail.com",
+  "license": "none"
+}
