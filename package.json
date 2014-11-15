@@ -10,8 +10,10 @@
   "author": "nate.gibbons@gmail.com",
   "license": "none",
   "devDependencies": {
+    "del": "^0.1.3",
     "gulp": "^3.8.10",
     "gulp-jade": "^0.9.0",
-    "gulp-less": "^1.3.6"
+    "gulp-less": "^1.3.6",
+    "vinyl-paths": "^1.0.0"
   }
 }
