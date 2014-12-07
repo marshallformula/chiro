@@ -2,7 +2,31 @@ doctype html
 html(lang="en")
    head
       title Gibbons Chiropractic
-      link(rel="stylesheet", href="libs/bootstrap/css/bootstrap.min.css")
+
+      meta(name="viewport" content="width=device-width, initial-scale=1")
+      link(rel="stylesheet", href="libs/bootstrap/dist/css/bootstrap.min.css")
+      link(rel="stylesheet", href="libs/fontawesome/css/font-awesome.min.css")
       link(rel="stylesheet", href="css/style.css")
-   body
-      h1 Gibbons Chiropracticy Heolw!!!
+   body(ng-app="app", ng-controller="MainCtrl")
+      div#mini-menu
+
+         ul.list-unstyled
+            li Home
+            li Treatments
+            li About Us
+            li Contact
+
+      div#main
+         button.btn.btn-default(ng-click="menu()")
+            span.fa.fa-bars
+
+         h1.page-header Gibbons Chiro
+
+
+
+      script(src="libs/jquery/dist/jquery.min.js")
+      script(src="libs/angular/angular.min.js")
+
+      script(src="js/app.js")
+
+
